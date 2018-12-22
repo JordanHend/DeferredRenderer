@@ -1,0 +1,127 @@
+﻿  Timer.cpp
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\timer.cpp(23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\timer.cpp(49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\timer.cpp(63): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\timer.cpp(87): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  stb_image.cpp
+  Shader.cpp
+  GLCamera.cpp
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.cpp(89): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.cpp(124): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.cpp(157): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Model.cpp
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\common.h(18): warning C4005: 'PI': macro redefinition
+  c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.h(11): note: see previous definition of 'PI'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(37): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(39): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(41): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(718): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(720): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(722): warning C4390: ';': empty controlled statement found; is this the intent?
+  Mesh.cpp
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(150): warning C4018: '<': signed/unsigned mismatch
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(152): warning C4018: '<': signed/unsigned mismatch
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(165): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(166): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(187): warning C4018: '<': signed/unsigned mismatch
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(213): warning C4018: '<': signed/unsigned mismatch
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(222): warning C4018: '<': signed/unsigned mismatch
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(232): warning C4018: '<': signed/unsigned mismatch
+  Animation.cpp
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\common.h(18): warning C4005: 'PI': macro redefinition
+  c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.h(11): note: see previous definition of 'PI'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(75): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(76): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(89): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(233): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(262): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(294): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(350): warning C4018: '<': signed/unsigned mismatch
+  AABB.cpp
+  Main.cpp
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\common.h(18): warning C4005: 'PI': macro redefinition
+  c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.h(11): note: see previous definition of 'PI'
+  Generating Code...
+Main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _glfwGetProcAddress referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2019: unresolved external symbol _gladLoadGLLoader referenced in function "int __cdecl initOpenGL(void)" (?initOpenGL@@YAHXZ)
+Main.obj : error LNK2001: unresolved external symbol _glad_glTexParameteri
+Model.obj : error LNK2001: unresolved external symbol _glad_glTexParameteri
+Main.obj : error LNK2001: unresolved external symbol _glad_glTexImage2D
+Model.obj : error LNK2001: unresolved external symbol _glad_glTexImage2D
+Main.obj : error LNK2001: unresolved external symbol _glad_glDrawBuffers
+Main.obj : error LNK2001: unresolved external symbol _glad_glBindRenderbuffer
+Main.obj : error LNK2001: unresolved external symbol _glad_glGenRenderbuffers
+Main.obj : error LNK2001: unresolved external symbol _glad_glRenderbufferStorage
+Main.obj : error LNK2001: unresolved external symbol _glad_glBindFramebuffer
+Main.obj : error LNK2001: unresolved external symbol _glad_glGenFramebuffers
+Main.obj : error LNK2001: unresolved external symbol _glad_glCheckFramebufferStatus
+Main.obj : error LNK2001: unresolved external symbol _glad_glFramebufferTexture2D
+Main.obj : error LNK2001: unresolved external symbol _glad_glFramebufferRenderbuffer
+Main.obj : error LNK2001: unresolved external symbol "int SCREEN_WIDTH" (?SCREEN_WIDTH@@3HA)
+Main.obj : error LNK2001: unresolved external symbol "int SCREEN_HEIGHT" (?SCREEN_HEIGHT@@3HA)
+Animation.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "public: void __thiscall Animation::getBoneTransforms(class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > > *)" (?getBoneTransforms@Animation@@QAEXPAV?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+Timer.obj : error LNK2001: unresolved external symbol _glfwGetTime
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glDisable
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glGetError
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glActiveTexture
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glBufferData
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glGetUniformLocation
+Model.obj : error LNK2001: unresolved external symbol _glad_glGetUniformLocation
+Shader.obj : error LNK2001: unresolved external symbol _glad_glGetUniformLocation
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glUniform1i
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform1i
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glBindBufferBase
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glVertexAttribIPointer
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glGenVertexArrays
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glMemoryBarrier
+Mesh.obj : error LNK2001: unresolved external symbol _glad_glDispatchCompute
+Mesh.obj : error LNK2001: unresolved external symbol "class Shader compute" (?compute@@3VShader@@A)
+Mesh.obj : error LNK2001: unresolved external symbol "class Shader clothShader" (?clothShader@@3VShader@@A)
+Mesh.obj : error LNK2001: unresolved external symbol "struct glm::tvec3<float,0> force" (?force@@3U?$tvec3@M$0A@@glm@@A)
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "private: virtual void __thiscall AnimatedModel::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@AnimatedModel@@EAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "private: virtual void __thiscall AnimatedModel::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@AnimatedModel@@EAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) referenced in function "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ) referenced in function "private: virtual void __thiscall AnimatedModel::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@AnimatedModel@@EAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTextureCount referenced in function "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTexture referenced in function "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
+Model.obj : error LNK2001: unresolved external symbol _glad_glUniformMatrix4fv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniformMatrix4fv
+Model.obj : error LNK2001: unresolved external symbol _glad_glGenerateMipmap
+Shader.obj : error LNK2001: unresolved external symbol _glad_glAttachShader
+Shader.obj : error LNK2001: unresolved external symbol _glad_glCompileShader
+Shader.obj : error LNK2001: unresolved external symbol _glad_glCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol _glad_glCreateShader
+Shader.obj : error LNK2001: unresolved external symbol _glad_glDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol _glad_glGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol _glad_glGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol _glad_glLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol _glad_glShaderSource
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUseProgram
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform1f
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform2f
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform3f
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform4f
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform2fv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform3fv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform4fv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniformMatrix2fv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniformMatrix3fv
+Shader.obj : error LNK2001: unresolved external symbol _glad_glUniform1ui
+C:\Users\Jordan\Documents\C++ Libraries\glfw-3.2.1.bin.WIN64\glfw-3.2.1.bin.WIN64\lib-vc2015\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Jordan\Assimp\lib\x64\assimpd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+c:\users\jordan\documents\visual studio 2015\Projects\DeferredRenderer\Debug\DeferredRenderer.exe : fatal error LNK1120: 73 unresolved externals
