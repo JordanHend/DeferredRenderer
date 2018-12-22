@@ -41,6 +41,9 @@
     <ClInclude Include="Utility\stb_image.h" />
     <ClInclude Include="Utility\Timer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="data\Final_test.fbx" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{851f1107-cbb8-4fcf-ad24-dec40945ac85}</ProjectGuid>
     <RootNamespace>DeferredRenderer</RootNamespace>

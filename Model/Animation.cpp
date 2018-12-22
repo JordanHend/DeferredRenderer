@@ -71,22 +71,25 @@ void Animation::Init(const aiScene * scene, std::vector<Mesh*>* vertices)
 void Animation::getBoneTransforms(std::vector<glm::mat4>* transforms)
 {
 	//I believe this code works 100%
-
-	anim_time += ((glfwGetTime() - start_time) * currentAnimation.anim_rate);
-	TicksPerSecond = animations[currentAnimation.id].mTicksPerSecond != 0 ? animations[currentAnimation.id].mTicksPerSecond : 25.0f;
-	TimeInTicks = anim_time * TicksPerSecond;
-	AnimationTime = TimeInTicks;
-
-	ReadNodeHeirarchy(std::min(AnimationTime, (float)animations[currentAnimation.id].mDuration - 1), root, glm::mat4(1.0f), transforms);
-
-	if (TimeInTicks >= animations[currentAnimation.id].mDuration - 1 && currentAnimation.loop)
+	if (animations.size() != 0)
 	{
-		
-	
-		anim_time = 0;
-	
+		anim_time += ((glfwGetTime() - start_time) * currentAnimation.anim_rate);
+		TicksPerSecond = animations[currentAnimation.id].mTicksPerSecond != 0 ? animations[currentAnimation.id].mTicksPerSecond : 25.0f;
+		TimeInTicks = anim_time * TicksPerSecond;
+		AnimationTime = TimeInTicks;
+
+		ReadNodeHeirarchy(std::min(AnimationTime, (float)animations[currentAnimation.id].mDuration - 1), root, glm::mat4(1.0f), transforms);
+
+		if (TimeInTicks >= animations[currentAnimation.id].mDuration - 1 && currentAnimation.loop)
+		{
+
+
+			anim_time = 0;
+
+		}
+		start_time = glfwGetTime();;
 	}
-	start_time = glfwGetTime();;
+
 }
 
 void Animation::resetAnimation()

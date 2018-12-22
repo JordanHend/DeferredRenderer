@@ -39,7 +39,7 @@ class Model
 {
 public:
 
-	
+	void AddTextureToMesh(std::string tex, std::string type, int meshID);
 	virtual void Draw(Shader shader);
 	virtual void Init(const char * path);
 	/*  Model Data */

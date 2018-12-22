@@ -1,34 +1,32 @@
-﻿  glad.c
-  Model.cpp
+﻿  Model.cpp
 c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\common.h(18): warning C4005: 'PI': macro redefinition
   c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.h(11): note: see previous definition of 'PI'
 c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(37): warning C4390: ';': empty controlled statement found; is this the intent?
 c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(39): warning C4390: ';': empty controlled statement found; is this the intent?
 c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(41): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(482): warning C4312: 'type cast': conversion from 'unsigned int' to 'char *' of greater size
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(500): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(708): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(710): warning C4390: ';': empty controlled statement found; is this the intent?
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(712): warning C4390: ';': empty controlled statement found; is this the intent?
-  Mesh.cpp
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(103): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\mesh.cpp(120): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  Generating Code...
-  Compiling...
-  Animation.cpp
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\common.h(18): warning C4005: 'PI': macro redefinition
-  c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.h(11): note: see previous definition of 'PI'
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(75): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(76): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(89): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(118): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(233): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(262): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\animation.cpp(294): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(492): warning C4312: 'type cast': conversion from 'unsigned int' to 'char *' of greater size
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(516): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(724): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(726): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\model\model.cpp(728): warning C4390: ';': empty controlled statement found; is this the intent?
   Main.cpp
 c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\common.h(18): warning C4005: 'PI': macro redefinition
   c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\utility\glcamera.h(11): note: see previous definition of 'PI'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(161): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(162): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(179): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(180): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(181): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(184): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(185): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(186): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(233): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(239): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(258): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(294): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(335): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(336): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+c:\users\jordan\documents\visual studio 2015\projects\deferredrenderer\deferredrenderer\main.cpp(151): warning C4715: 'initDefferredShading': not all control paths return a value
   DeferredRenderer.vcxproj -> c:\users\jordan\documents\visual studio 2015\Projects\DeferredRenderer\x64\Debug\DeferredRenderer.exe
   DeferredRenderer.vcxproj -> c:\users\jordan\documents\visual studio 2015\Projects\DeferredRenderer\x64\Debug\DeferredRenderer.pdb (Partial PDB)

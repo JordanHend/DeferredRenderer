@@ -11,7 +11,7 @@ void Model::loadModel(std::string path)
 	Assimp::Importer importer;
 
 	const aiScene * pScene = importer.ReadFile(path, aiProcess_Triangulate |
-		aiProcess_CalcTangentSpace | aiProcess_FlipUVs | aiProcess_JoinIdenticalVertices
+		aiProcess_CalcTangentSpace | aiProcess_FlipUVs 
 );
 
 
@@ -320,6 +320,16 @@ void Model::changeScale(glm::vec3 newScale)
 }
 
 
+void Model::AddTextureToMesh(std::string tex, std::string type, int meshID)
+{
+	Texture texture;
+	texture.id = TextureFromFile(tex.c_str(), this->filename);
+	texture.type = type;
+	texture.path = tex.c_str();
+	meshes[meshID]->textures.push_back(texture);
+
+}
+
 void Model::Draw(Shader shader)
 {
 	shader.use();
@@ -494,6 +504,12 @@ void AnimatedModel::setAnimation(AnimInfo anim)
 
 void AnimatedModel::Draw(Shader shader)
 {
+	model = glm::mat4(1);
+	model = glm::translate(model, position);
+	model = glm::scale(model, scale_vector);
+	model *= glm::eulerAngleXYZ(eulerAngles.x, eulerAngles.y, eulerAngles.z);
+	shader.setBool("hasNormal", false);
+	shader.setMat4("model", model);
 	shader.setBool("hasAnimations", 1);
 	collider.SetFromCenterAndSize(position, collider.Size());
 	anim.getBoneTransforms(&transforms);
