@@ -1,6 +1,8 @@
 
 Deferred Renderer in OpenGL
 
+Full   : Position
+Normal : Diffuse 
 
 ![Alt text](/Images/full.PNG?raw=true "Full Color") ![Alt text](/Images/position.PNG?raw=true "Pos Color") ![Alt text](/Images/normal.PNG?raw=true "Normals") ![Alt text](/Images/color.PNG?raw=true "Diffuse")
 
